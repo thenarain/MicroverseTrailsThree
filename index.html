@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <header>
+        <h1 id="title">Microverse Survey Form</h1>
+        <p id="description">This is form used by Microverse to do a Survey on prospective student to know if the are compatible to work as team member.</p>
+
+
+    </header>
+
+    <main>
+        <form id="survey-form">
+            <label for="name" id= "name-label">NAME:</label><br>
+            <input type="text" id="name" name="fname" placeholder= "Enter your Name" required>
+            <button id= "submit">SUBMIT</button>
+            <br><br>
+            
+            <label for="email" id= "email-label">EMAIL:</label><br>
+            <input type="email" id="email" name="EMAIL" placeholder= "Enter your Email" required>
+            <button id= "submit">SUBMIT</button>
+            <br><br>
+
+            <label for="number" id="number-label">NUMBER</label><br>
+            <input type="number" id="number" name="number" min="1" max="5" placeholder="Number">
+            <button id= "submit">SUBMIT</button>
+            <br><br>
+
+            <label>Select list</label>
+             <select id="dropdown">
+               <option value = "1">one</option>
+               <option value = "2">two</option>
+               <option value = "3">three</option>
+               <option value = "4">four</option>
+             </select><br><br>
+
+             <input type="radio" id="male" name="gender" value="male">
+             <label for="male">Male</label><br>
+             <input type="radio" id="female" name="gender" value="female">
+             <label for="female">Female</label><br>
+             <input type="radio" id="other" name="gender" value="other">
+             <label for="other">Other</label><br><br>
+
+             <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+             <label for="vehicle1"> I have a bike</label><br>
+             <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+             <label for="vehicle2"> I have a car</label><br>
+             <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+             <label for="vehicle3"> I have a boat</label><br><br>
+
+             <textarea name="comment" form="usrform">Enter text here...</textarea>
+             <button id= "submit">SUBMIT</button>
+             <br><br>
+
+
+        </form>
+
+    </main>
+    
+    
+</body>
+</html>
